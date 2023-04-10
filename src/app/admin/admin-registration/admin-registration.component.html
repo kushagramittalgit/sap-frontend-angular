@@ -1,0 +1,54 @@
+<body>	
+    <div class="app">
+        <header class="app-header">
+            <div class="app-header-logo">
+                <div class="logo">
+                    <span class="logo-icon"><img src="../assets/logo.png" /></span>
+                    <h1 class="logo-title"><span>Admin Portal</span></h1>
+                </div>
+                 <nav>
+                    <ul class="nav_list">
+                      <li class="nav-item"><a routerLink = '/'>School Login</a> </li>
+                    </ul>
+                  </nav>
+            </div>
+        </header>
+        <div class="app-body">
+        <div class="app-body-navigation">
+            <nav class="navigation">
+                <a routerLink="/admin/dashboard"><span>Dashboard</span></a>
+                <a routerLink="/admin/registration" ><span>School Registration</span></a>
+                <a routerLink="/admin/details" ><span>School Details</span></a>
+            </nav>
+            <div class="footer">
+                <div >SolUltima ©<br/>All Rights Reserved 2023
+                </div>
+            </div>
+        </div>
+    
+        <div class="app-body-main-content">
+            <div class="app-body-div-top">
+                <div class="dashboard-box">
+                        <form class="school-registration-form">
+                            <label for="schoolname">School Name </label>
+                            <input type="text" placeholder="Enter School Name" id="schoolname">
+                            <label for="schooladdress">Enter School Address </label>
+                            <input type="text" placeholder="Enter School Address" id="schoolname">
+                            <label for="schoolemail">School Email</label>
+                            <input type="text" placeholder="Enter Email" id="schoolemail">
+                            <label for="schoolcontact">Contact Number</label>
+                            <input type="number" placeholder="Contact Number" id="schoolcontact">
+                            <label for="username">Username</label>
+                            <input type="text" placeholder="Email or Phone" id="username">
+                            <label for="password">Password</label>
+                            <input type="password" placeholder="Password" id="password">
+                            <a routerLink="/admin/dashboard"><button>Submit</button></a>
+                        </form>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    </body>
+
