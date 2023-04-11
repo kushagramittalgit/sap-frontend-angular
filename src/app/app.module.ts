@@ -20,7 +20,7 @@ import { AdminEditComponent } from './admin/admin-edit/admin-edit.component';
 		AdminRegistrationComponent,
 		AdminDetailsComponent,
 		AdminHomeComponent,
-  AdminEditComponent,
+		AdminEditComponent,
 	],
 	imports: [
 		BrowserModule,
