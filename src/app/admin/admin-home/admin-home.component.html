@@ -1,0 +1,30 @@
+  <header class="app-header theme-box">
+    <div class="app-header-logo">
+      <div class="logo">
+        <span class="logo-icon"><img src="../assets/logo.png" /></span>
+        <h1 class="logo-title"><span>Admin Portal</span></h1>
+      </div>
+    </div>
+    <nav>
+      <ul class="nav_list">
+        <li class="nav-item" routerLink="/"><a>Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="app-body ">
+    <div class="app-body-navigation theme-box">
+      <nav class="navigation">
+        <a routerLink="dashboard"><span>Dashboard</span></a>
+        <a routerLink="registration"><span>School Registration</span></a>
+        <a routerLink="details"><span>School Details</span></a>
+        <a routerLink="edit"><span>Users Information</span></a>
+      </nav>
+      <div class="footer">
+        <div>SolUltima ©<br />All Rights Reserved 2023</div>
+      </div>
+    </div>
+
+    <div class="app-body-main-content theme-box">
+      <router-outlet></router-outlet>
+    </div>
+  </div>

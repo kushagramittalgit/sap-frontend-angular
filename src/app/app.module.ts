@@ -8,6 +8,8 @@ import { AdminLoginComponent } from './admin/admin-login/admin-login.component';
 import { AdminDashboardComponent } from './admin/admin-dashboard/admin-dashboard.component';
 import { AdminRegistrationComponent } from './admin/admin-registration/admin-registration.component';
 import { AdminDetailsComponent } from './admin/admin-details/admin-details.component';
+import { AdminHomeComponent } from './admin/admin-home/admin-home.component';
+import { AdminEditComponent } from './admin/admin-edit/admin-edit.component';
 
 @NgModule({
 	declarations: [
@@ -17,6 +19,8 @@ import { AdminDetailsComponent } from './admin/admin-details/admin-details.compo
 		AdminDashboardComponent,
 		AdminRegistrationComponent,
 		AdminDetailsComponent,
+		AdminHomeComponent,
+  AdminEditComponent,
 	],
 	imports: [
 		BrowserModule,

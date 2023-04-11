@@ -1,0 +1,24 @@
+.edit-details {
+  width: 97%;
+  background-color: grey;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+
+  img {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+  }
+  tr {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  td {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+}
+//todo : have to edit icons and update the rdit component
