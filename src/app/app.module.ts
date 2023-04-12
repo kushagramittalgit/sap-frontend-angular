@@ -4,13 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { AdminLoginComponent } from './admin/admin-login/admin-login.component';
+import { AdminLoginComponent } from './login/admin-login/admin-login.component';
 import { AdminDashboardComponent } from './admin/admin-dashboard/admin-dashboard.component';
 import { AdminRegistrationComponent } from './admin/admin-registration/admin-registration.component';
 import { AdminDetailsComponent } from './admin/admin-details/admin-details.component';
 import { AdminHomeComponent } from './admin/admin-home/admin-home.component';
 import { AdminEditComponent } from './admin/admin-edit/admin-edit.component';
-
+import { SchoolLoginComponent } from './login/school-login/school-login.component';
 @NgModule({
 	declarations: [
 		AppComponent,
@@ -21,10 +21,11 @@ import { AdminEditComponent } from './admin/admin-edit/admin-edit.component';
 		AdminDetailsComponent,
 		AdminHomeComponent,
 		AdminEditComponent,
+		SchoolLoginComponent,
 	],
 	imports: [
 		BrowserModule,
-		AppRoutingModule
+		AppRoutingModule,
 	],
 	providers: [],
 	bootstrap: [AppComponent]
