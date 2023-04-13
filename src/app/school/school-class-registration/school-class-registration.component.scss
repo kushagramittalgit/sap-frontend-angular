@@ -1,0 +1,25 @@
+.class-registration-box {
+    gap: 1rem;
+    background-color: #242429;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    select {
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    >.grade{
+        padding-right: 1rem;
+        display: flex;
+        flex-direction: row;
+    }
+    >.section {
+        padding-right: 1rem;
+        display: flex;
+        flex-direction: row;
+    } 
+    
+  }
+  

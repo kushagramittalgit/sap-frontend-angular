@@ -1,0 +1,29 @@
+.app-body-main-content {
+    h4 {
+      padding-top: 3rem;
+      font-weight: 300;
+    }
+
+    .app-body-div-top {
+      display: flex;
+      flex-direction: column;
+      > .dashboard-box {
+        background-color: grey;
+        margin: 1rem;
+        padding: 1rem 2rem;
+      }
+    }
+    .app-body-div-bottom {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      > .dashboard-small-box {
+        background-color: grey;
+        margin-top: 1rem;
+        padding: 1rem 2rem;
+      }
+    }
+  }
+  
+  //todo : edit styles of dashboard remove margin
+  //todo : 

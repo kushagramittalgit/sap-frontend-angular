@@ -13,12 +13,15 @@ const routes: Routes = [
 		path:'admin/login',
 		component:AdminLoginComponent
 	},
-	{ path: 'admin',loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule) },
 	{
 		path:'school/login',
 		component:SchoolLoginComponent,
 	},
-	{ path: 'school', loadChildren: () => import('./school/school.module').then(m => m.SchoolModule) },
+	{ 	path: 'admin',
+		loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule) },
+
+	{ 	path: 'school', 
+		loadChildren: () => import('./school/school.module').then(m => m.SchoolModule) },
 	
 ];
 
